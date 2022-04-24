@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+    <head>
+        {{- partial "head.html" . -}}
+    </head>
+    
+    <body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
+        <div class="site-wrapper overflow-hidden position-relative">
+            <!-- Site Header -->
+            <!-- Preloader -->
+            <!-- <div id="loading">
+            <div class="preloader">
+                <img src="./image/preloader.gif" alt="preloader">
+            </div>
+            </div>    -->
+            {{- partial "header.html" . -}}
+
+            {{- block "main" . }}{{- end }}
+
+            {{- partial "footer.html" . -}}
+            </div>
+
+            <div class="copyright-area-l-11">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="text-center">
+                      <p>© 2021 {{.Title}} - All right reserved. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Vendor Scripts -->
+        <script src="js/vendor.min.js"></script>
+        <!-- Plugin's Scripts -->
+        <script src="/plugins/aos/aos.min.js"></script>
+        <script src="/plugins/slick/slick.min.js"></script>
+        <script src="/plugins/menu/menu.js"></script>
+        <!-- Activation Script -->
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
