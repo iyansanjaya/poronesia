@@ -1,4 +1,4 @@
-baseURL = 'https://poronesia-web.netlify.app/'
+baseURL = 'https://poronesia.com/'
 languageCode = 'en-us'
 title = 'Poronesia Design Solution'
 theme = 'poronesia'
