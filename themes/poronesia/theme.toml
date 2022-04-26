@@ -5,14 +5,14 @@ name = "Poronesia"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
 description = ""
-homepage = "http://example.com/"
-tags = []
-features = []
+homepage = "http://poronesia.com/"
+tags = [Company]
+features = [Agency]
 min_version = "0.41.0"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Iyan Sanjaya"
+  homepage = "http://iyansanjaya.com/"
 
 # If porting an existing theme
 [original]
