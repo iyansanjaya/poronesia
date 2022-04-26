@@ -9,9 +9,9 @@
       <div class="col-md-6">
         <div class="footer-widget-l-11">
           <ul class="pl-0 list-unstyled d-flex flex-wrap justify-content-center align-items-end ">
-            <li class="d-flex"><a href="https://xendit.store/poronesia" target="_blank">Digital Store</a></li>
-            <li class="d-flex"><a href="#Feature">Features</a></li>
-            <li class="d-flex"><a href="#contact">Contact</a></li>
+            <li class="d-flex"><a href="https://xendit.store/poronesia" target="_blank">Store</a></li>
+            <li class="d-flex"><a href="mailto:support@poronesia.com">Email</a></li> 
+            <li class="d-flex"><a href="https://discord.com/invite/4xuezJ5" target="_blank">Discord</a></li>
           </ul>
         </div>
       </div>
@@ -30,3 +30,14 @@
 </footer>
 
 <script>  var MessageBirdChatWidgetSettings = {     widgetId: '7d9532af-8e85-4736-84f4-8512f4840d48',     initializeOnLoad: true,   };  !function(){"use strict";if(Boolean(document.getElementById("live-chat-widget-script")))console.error("MessageBirdChatWidget: Snippet loaded twice on page");else{var e,t;window.MessageBirdChatWidget={},window.MessageBirdChatWidget.queue=[];for(var i=["init","setConfig","toggleChat","identify","hide","on","shutdown"],n=function(){var e=i[d];window.MessageBirdChatWidget[e]=function(){for(var t=arguments.length,i=new Array(t),n=0;n<t;n++)i[n]=arguments[n];window.MessageBirdChatWidget.queue.push([[e,i]])}},d=0;d<i.length;d++)n();var a=(null===(e=window)||void 0===e||null===(t=e.MessageBirdChatWidgetSettings)||void 0===t?void 0:t.widgetId)||"",o=function(){var e,t=document.createElement("script");t.type="text/javascript",t.src="https://livechat.messagebird.com/bootstrap.js?widgetId=".concat(a),t.async=!0,t.id="live-chat-widget-script";var i=document.getElementsByTagName("script")[0];null==i||null===(e=i.parentNode)||void 0===e||e.insertBefore(t,i)};"complete"===document.readyState?o():window.attachEvent?window.attachEvent("onload",o):window.addEventListener("load",o,!1)}}();</script>
+
+  <script>
+    // get reference to element from the dom
+    const livechatButton = document.getElementById('livechat-widget-opener');
+    // add event listener to button
+    livechatButton?.addEventListener('click', () => {
+        if (window.MessageBirdChatWidget) {
+            window.MessageBirdChatWidget.toggleChat(true);
+        }
+    })
+  </script>
