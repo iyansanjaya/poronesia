@@ -6,8 +6,8 @@ license = "MIT"
 licenselink = "https://github.com/iyansanjaya/poronesia/blob/master/LICENSE"
 description = ""
 homepage = "http://poronesia.com/"
-tags = [Company]
-features = [Agency]
+tags = []
+features = []
 min_version = "0.41.0"
 
 [author]
