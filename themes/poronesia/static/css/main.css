@@ -3192,7 +3192,7 @@ img.spin {
   border-radius: 100%;
 }
 .at-floating-navigation__title {
-  color: #444444;
+  color: #222;
   margin: 0 0 2px;
   padding: 0;
   font-size: 14px !important;
@@ -3210,11 +3210,11 @@ img.spin {
 .at-floating-navigation__button {
   pointer-events: auto;
   outline: none;
-  background: #222;
-  color: #FFF;
+  background: #222222;
+  color: #ffffff;
   width: 40px;
   height: 40px;
-  border: 1px solid #222;
+  border: 1px solid #222222;
   border-radius: 100%;
   font-size: 20px;
   font-weight: 600;
