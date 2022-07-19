@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<html>
+
+    <head>
+        {{- partial "head.html" . -}}
+    </head>
+    
+    <body>
+        <!-- Start Preloader -->
+        <div class="cs-preloader cs-accent_color cs-white_bg">
+        <div class="cs-preloader_bg cs-center cs-accent_4_bg">
+          <div class="cs-preloader_in cs-accent_15_border">
+            <img src="/img/design-agency/logo.svg" alt="Logo">
+          </div>
+        </div>
+        </div>
+        <!-- End Preloader -->
+
+        {{- partial "header.html" . -}}
+
+        {{- block "main" . }}{{- end }}
+
+        {{- partial "footer.html" . -}} 
+
+        <!-- Script -->
+        <script src="/js/plugins/jquery-3.6.0.min.js"></script>
+        <script src="/js/plugins/isotope.pkg.min.js"></script>
+        <script src="/js/plugins/jquery.slick.min.js"></script>
+        <script src="/js/plugins/lightgallery.min.js"></script>
+        <script src="/js/plugins/jquery.counter.min.js"></script>
+        <script src="/js/plugins/wow.min.js"></script>
+        <script src="/js/main.js"></script>
+
+    </body>
+</html>
