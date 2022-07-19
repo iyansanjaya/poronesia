@@ -1,7 +1,7 @@
 baseURL = 'https://poronesia.com/'
 languageCode = 'en-us'
 title = 'Poronesia Design Solution'
-theme = 'poronew'
+theme = 'poronesia'
 
 [sitemap]
   changefreq = 'daily'
