@@ -134,7 +134,7 @@ a:hover,
 .cs-accordians.cs-style2 .cs-accordian_head:hover .cs-accordian_title,
 .comment-list .reply a,
 .cs-tab_links.cs-style2 .active a {
-  color: #ff7b54;
+  color: #e81e1e;
 }
 
 .cs-accent_10_color,
@@ -191,7 +191,7 @@ a:hover,
 .cs-site_header.cs-style1 .current-menu-item > a,
 .cs-site_header.cs-style2 .cs-nav .cs-nav_list .current-menu-item > a,
 .cs-site_header.cs-style1 .cs-nav .cs-nav_list > li > a:hover {
-  color: #939b62;
+  color: #e81e1e;
 }
 
 .cs-accent_10_color_2,
@@ -590,7 +590,7 @@ a:hover,
 }
 
 .cs-btn.cs-style6.cs-accent_color_2 .cs-btn_icon {
-  background-color: #939b62;
+  background-color: #e81e1e;
 }
 
 .cs-btn.cs-style6.cs-accent_color_2:hover .cs-btn_icon {
